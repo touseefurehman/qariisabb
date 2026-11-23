@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold transition; }
+  .btn-primary { @apply btn bg-gold text-emerald-950 hover:bg-gold-600 hover:text-white; }
+  .btn-whatsapp { @apply btn bg-[#25D366] text-white hover:opacity-90; }
+  .btn-secondary { @apply btn border border-white/40 text-white hover:bg-white/10; }
+}
